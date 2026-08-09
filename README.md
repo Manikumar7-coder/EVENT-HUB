@@ -80,10 +80,10 @@ npm run dev
 ### Environment Variables
 Create a `backend/.env` file (use `.env.example` as a template):
 ```env
-PORT=5000
-MONGO_URI=mongodb://127.0.0.1:27017/eventhub
-JWT_SECRET=your_jwt_secret_here
-CLIENT_URL=http://localhost:5173
+PORT=
+MONGO_URI=mongodb://xxx.x.x.x:xxxx/eventhub
+JWT_SECRET=
+CLIENT_URL=
 ```
 
 > ⚠️ Never commit your real `.env` file — it's already excluded via `.gitignore`.
